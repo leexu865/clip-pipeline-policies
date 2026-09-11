@@ -1,0 +1,160 @@
+<title>Clip Pipeline Terms of Service</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f7f7f5;
+    --surface: #ffffff;
+    --line: #e2e2de;
+    --text: #1e2124;
+    --dim: #64686d;
+    --accent: #2f6f6a;
+    --accent-soft: rgba(47,111,106,0.08);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #14171a;
+      --surface: #1b1f22;
+      --line: #2b3034;
+      --text: #e8e6e1;
+      --dim: #9a9fa3;
+      --accent: #6cc0b8;
+      --accent-soft: rgba(108,192,184,0.12);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #14171a;
+    --surface: #1b1f22;
+    --line: #2b3034;
+    --text: #e8e6e1;
+    --dim: #9a9fa3;
+    --accent: #6cc0b8;
+    --accent-soft: rgba(108,192,184,0.12);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: 17px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 700px; margin: 0 auto; padding: 56px 24px 90px; }
+
+  .doc-head {
+    border-bottom: 2px solid var(--text);
+    padding-bottom: 22px;
+    margin-bottom: 40px;
+  }
+  .doc-kicker {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 10px;
+    font-weight: 500;
+  }
+  h1 {
+    font-family: "IBM Plex Sans", ui-sans-serif, sans-serif;
+    font-weight: 700;
+    font-size: clamp(1.7rem, 4vw, 2.3rem);
+    margin: 0 0 8px;
+    text-wrap: balance;
+    line-height: 1.15;
+  }
+  .doc-meta {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 0.82rem;
+    color: var(--dim);
+  }
+
+  section { margin: 34px 0; }
+  h2 {
+    font-family: "IBM Plex Sans", ui-sans-serif, sans-serif;
+    font-weight: 600;
+    font-size: 1.08rem;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin: 0 0 12px;
+  }
+  h2 .num {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    color: var(--accent);
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  p { margin: 0 0 14px; max-width: 65ch; }
+  ul { margin: 0 0 14px; padding-left: 1.3em; max-width: 62ch; }
+  li { margin-bottom: 6px; }
+
+  code {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 0.88em;
+    background: var(--accent-soft);
+    color: var(--accent);
+    padding: 1px 6px;
+    border-radius: 4px;
+  }
+
+  a { color: var(--accent); }
+
+  footer {
+    margin-top: 50px;
+    padding-top: 18px;
+    border-top: 1px solid var(--line);
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 0.78rem;
+    color: var(--dim);
+  }
+</style>
+
+<div class="wrap">
+  <div class="doc-head">
+    <p class="doc-kicker">Terms of Service</p>
+    <h1>Clip Pipeline</h1>
+    <p class="doc-meta">Last updated September 11, 2026</p>
+  </div>
+
+  <section>
+    <h2><span class="num">1</span>Scope</h2>
+    <p>Clip Pipeline is a personal automation tool: one operator running it locally to generate and publish short-form video content to social accounts they own. These terms cover that single-operator use. The tool is not distributed, sold, or offered as a hosted service to other users.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">2</span>What the tool does</h2>
+    <p>With the operator's authorization, Clip Pipeline generates video content locally and publishes it, via each platform's own API (TikTok, YouTube), to accounts the operator owns and controls. It acts only within the scopes explicitly granted during login — see the <a href="#privacy">Privacy Policy</a> for the exact list.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">3</span>Operator responsibility</h2>
+    <p>The operator is solely responsible for:</p>
+    <ul>
+      <li>The content generated and published through the tool, and its compliance with each platform's community guidelines and terms of service.</li>
+      <li>Keeping their own API credentials and account access secure.</li>
+      <li>Any consequences of publishing — including platform moderation actions — that result from using the tool.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="num">4</span>No warranty</h2>
+    <p>Clip Pipeline is provided as-is, without warranty of any kind. It may fail, produce unexpected output, or stop working if a platform changes its API. There is no guarantee of uptime, accuracy, or fitness for any particular purpose.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">5</span>Changes</h2>
+    <p>These terms may be updated as the tool evolves. Continued use after a change constitutes acceptance of the updated terms.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">6</span>Contact</h2>
+    <p>Questions about these terms can be sent to <a href="mailto:xu.t.j.lee@gmail.com">xu.t.j.lee@gmail.com</a>.</p>
+  </section>
+
+  <footer>Clip Pipeline &middot; Terms of Service &middot; effective September 11, 2026</footer>
+</div>
